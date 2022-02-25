@@ -1,0 +1,14 @@
+.register {
+  padding-top: 1rem;
+}
+.register-head {
+  color: #157347;
+}
+.register-social {
+  padding: 2rem;
+}
+.register-social button {
+  margin-top: 0.5rem;
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+}
