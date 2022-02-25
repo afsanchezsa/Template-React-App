@@ -27,7 +27,7 @@ function RegisterComponent(props) {
 
   return (
     <div className="container register">
-      <h1>Usuario Global</h1>
+      {/* <h1>Usuario Global</h1>
       {JSON.stringify(props.user)}
       <br></br>
       <h1>Usuario Local</h1>
@@ -35,6 +35,7 @@ function RegisterComponent(props) {
       <br></br>
       password: {password}
       <br></br>
+     */}
       <Link to="/">
         <ButtonBT variant="outline-success"> atras </ButtonBT>
       </Link>

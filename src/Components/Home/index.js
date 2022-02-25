@@ -6,7 +6,7 @@ import './Home.css'
 function HomeComponent() {
   return (
     <div className="container d-flex flex-column home__allHeight">
-      <div className="d-flex flex-row justify-content-center align-items-center home__fg-6">
+      <div className="d-flex flex-row justify-content-center align-items-center home__fg-6 home_backgreen">
         <div className="d-flex justify-content-center ">
 
           <div>
@@ -19,12 +19,12 @@ function HomeComponent() {
 
       <div className="d-flex justify-content-center align-items-center home__fg-1">
       <Link to="/login">
-        <Button variant="success"> Login</Button>
+        <Button variant="success" className="home__btn"> Login</Button>
       </Link>
     
     <Link to="/register">
     
-    <Button>REGISTER</Button>
+    <Button className="home__btn">REGISTER</Button>
 
     </Link>    
       </div>
