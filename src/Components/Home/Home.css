@@ -1,0 +1,20 @@
+/*.bt{
+    margin: 0 20px;
+}*/
+.home__banner{
+   background-color:green;
+   height: 90vh;
+}
+
+.home__allHeight{
+    height: 100%;
+}
+
+.home__fg-6{
+    flex-grow: 6;
+   
+}
+.home__fg-1{
+    flex-grow: 1;
+   
+}
