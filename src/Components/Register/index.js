@@ -27,7 +27,7 @@ function RegisterComponent(props) {
 
   return (
     <div className="container register">
-      {/* <h1>Usuario Global</h1>
+       <h1>Usuario Global</h1>
       {JSON.stringify(props.user)}
       <br></br>
       <h1>Usuario Local</h1>
@@ -35,7 +35,7 @@ function RegisterComponent(props) {
       <br></br>
       password: {password}
       <br></br>
-     */}
+     
       <Link to="/">
         <ButtonBT variant="outline-success"> atras </ButtonBT>
       </Link>
@@ -67,7 +67,7 @@ function RegisterComponent(props) {
           />
         </Form.Group>
 
-        <Button variant="success" text="submit">
+        <Button variant="success" text="submit" type="submit">
           Submit
         </Button>
         <div className="register-social">
