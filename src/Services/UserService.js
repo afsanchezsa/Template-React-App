@@ -1,8 +1,8 @@
 import { registerUser } from "../Redux/ActionCreators/AuthActionCreator"
 
-const uploadUser=()=>(dispacth)=>{
+const uploadUser=(email,password)=>(dispacth)=>{
     setTimeout(()=>{
-        dispacth(registerUser("hash@trust.co","spring"))
+        dispacth(registerUser(email,password))
     },3000)
 }
 export {uploadUser}

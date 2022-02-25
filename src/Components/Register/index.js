@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 import Button from "../Button";
 
 import "./Register.css";
+import { uploadUser } from "../../Services/UserService";
 
 function mapStateToProps(state) {
   return {
@@ -18,6 +19,7 @@ function mapStateToProps(state) {
 function mapDispatchToProps(dispatch) {
   return {
     register_user: (email, password) => dispatch(registerUser(email, password)),
+    upload_user:(email,password)=>dispatch(uploadUser(email,password))
   };
 }
 
@@ -43,7 +45,7 @@ function RegisterComponent(props) {
       <Form
         onSubmit={(event) => {
           event.preventDefault();
-          props.register_user(email, password);
+          props.upload_user(email, password);
         }}
       >
         <Form.Group className="mb-3" controlId="formBasicEmail">
